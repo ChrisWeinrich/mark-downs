@@ -2,7 +2,7 @@
 
 ## Repositories 
 
-Repositories for Aggregates Only 
+Repositories for Aggregates Only btw. One Repository per aggregate
  
 ## Repository Base Class 
 
