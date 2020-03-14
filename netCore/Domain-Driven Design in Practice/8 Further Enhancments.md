@@ -19,7 +19,7 @@ Validation in Application Services
 *   Don't use for simple creation logic
 
 ## Domain Services vs Application Services
-*   Domain Service: Inside Domain Layer,Don't have state,Contain domain logic
+*   Domain Service: Inside Domain Layer,Don't have state,Contains domain logic      which is not applicable for Entity
 *   Application Service: Outside of the domain layer,communication with outside world, No Domain Logic
 
 ## Anemic Domain Model Anti-pattern
