@@ -1,0 +1,1 @@
+# Decoupling the Domain Model from Data Contracts
