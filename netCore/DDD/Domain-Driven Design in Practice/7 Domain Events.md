@@ -34,7 +34,7 @@ Event + Domain significance
 *   Seperate creating an Event and Dispatching Event
 *   Domain Entities Creates Event
 *   Move Dispatching to unit Of Work Save Changes
-*   Dispatching should be done after persisted Changes !
+*   Dispatching should be done after persisted Changes ! (In this Course NHibernate is used so this has to be adjusted to EF Core)
 
 ```C#
     public abstract class AggregateRoot : Entity
@@ -112,8 +112,7 @@ Event + Domain significance
         {
             Delta = delta;
         }
-    }
-    
+    }         
 ```
 
 ### Between Microservices
