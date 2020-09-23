@@ -36,7 +36,7 @@ ENTRYPOINT ["node","./app.js"]
 **Commands**
 
 ```bash
-docker image build -t imageName .
+docker image build -t imageName /buildContext
 docker container run -d --name web1 -p 8080:8080 imageName
 ```
 
