@@ -27,6 +27,36 @@
 
 ## Designing Caching
 
+Basic Tenet of REST APIs
+
+Use Http for caching => 304 not modified
+
+**Entity Tags**
+
+412 not matched
+
+## Functional APIs
+
+not 100% RESTful
+
+exception rather than the rule
+
+## Asynchronous APIs
+
+- SignalR
+- gRPC
+- Comet
+- Firebase
+
+
+
+
+
+
+
+
+
+
 
 
 
