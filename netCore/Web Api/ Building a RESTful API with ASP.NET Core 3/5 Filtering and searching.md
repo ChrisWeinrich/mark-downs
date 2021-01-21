@@ -4,9 +4,10 @@
 
 [FromRoute]   
 [FromQuery]  
-**[ApiController]** Better Behavior for APIs
 [FromBody]   
 [FromForm]    
+
+**[ApiController]** Better Behavior for APIs
 
 ## Filter and searching
 filtering is precise  
